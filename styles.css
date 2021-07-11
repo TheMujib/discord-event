@@ -157,3 +157,54 @@ a {
   outline: none;
   border: 2px solid var(--white);
 }
+
+@media only screen and (max-width: 722px) {
+  .dis {
+    font-size: 8vw;
+  }
+
+  .web-ul {
+    margin-left: 1.5rem;
+  }
+
+  .que-ans {
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .dis {
+    font-size: 8vw;
+  }
+
+  .web {
+    font-size: 4vw;
+    line-height: 2rem;
+  }
+
+  .web-text {
+    margin-top: 2rem;
+    font-size: 4vw;
+  }
+
+  .web-ul {
+    font-size: 4vw;
+    line-height: 2.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .que-ans {
+    margin-left: 0.5rem;
+    font-size: 3.5vw;
+    line-height: 2rem;
+  }
+
+  .how-to-join {
+    font-size: 10vw;
+  }
+
+  .join-btn {
+    font-size: 6vw;
+    padding: 0.8rem 2rem;
+  }
+}
